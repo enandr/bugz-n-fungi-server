@@ -1,0 +1,24 @@
+{
+  "name": "bugz-n-fungi-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-update": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enandr/bugz-n-fungi-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enandr/bugz-n-fungi-server/issues"
+  },
+  "homepage": "https://github.com/enandr/bugz-n-fungi-server#readme",
+  "dependencies": {
+    "socket.io": "^4.5.3"
+  }
+}
